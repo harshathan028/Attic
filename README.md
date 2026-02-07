@@ -3,18 +3,18 @@
 > **Implemented adaptive multi-agent orchestration with live data ingestion and cross-run learning memory enabling strategy reuse and performance-driven agent behavior.**
 
 A production-ready content generation system featuring:
-- 🤖 **5 Specialized Agents** - Research, Writing, Fact-Checking, Optimization, Live Data
-- 📡 **Live Data Ingestion** - RSS feeds, REST APIs, PDFs, CSVs
-- 🧠 **Long-Term Learning** - Cross-run strategy memory and performance tracking
-- 💾 **Vector Memory** - ChromaDB-powered semantic retrieval
-- 🔌 **Multi-LLM Support** - Gemini (cloud) or Ollama (local)
-- 📊 **Quality Evaluation** - Readability, structure, keyword density scoring
+- **5 Specialized Agents** - Research, Writing, Fact-Checking, Optimization, Live Data
+- **Live Data Ingestion** - RSS feeds, REST APIs, PDFs, CSVs
+- **Long-Term Learning** - Cross-run strategy memory and performance tracking
+- **Vector Memory** - ChromaDB-powered semantic retrieval
+- **Multi-LLM Support** - Gemini (cloud) or Ollama (local)
+- **Quality Evaluation** - Readability, structure, keyword density scoring
 
 **No LangChain, CrewAI, or AutoGen** - Pure custom orchestration architecture.
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
@@ -33,10 +33,10 @@ A production-ready content generation system featuring:
 ┌─────────────────────────────▼───────────────────────────────────┐
 │                      AgentManager                               │
 │                                                                 │
-│  ┌──────────┐  ┌──────────┐  ┌──────────┐  ┌──────────┐        │
-│  │ LiveData │  │ Research │  │  Writer  │  │FactCheck │  ...   │
-│  │  Agent   │──▶│  Agent   │──▶│  Agent   │──▶│  Agent   │       │
-│  └────┬─────┘  └────┬─────┘  └────┬─────┘  └────┬─────┘        │
+│  ┌──────────┐  ┌──────────┐  ┌──────────┐  ┌──────────┐         │
+│  │ LiveData │  │ Research │  │  Writer  │  │FactCheck │  ...    │
+│  │  Agent   │──▶│  Agent  │──▶│  Agent │──▶│  Agent   │         │
+│  └────┬─────┘  └────┬─────┘  └────┬─────┘  └────┬─────┘         │
 │       │             │             │             │               │
 └───────┼─────────────┼─────────────┼─────────────┼───────────────┘
         │             │             │             │
@@ -51,7 +51,7 @@ A production-ready content generation system featuring:
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Installation
 
@@ -86,7 +86,7 @@ python main.py --topic "AI in Healthcare"
 
 ---
 
-## �️ ATTIC Interactive CLI Mode
+## ATTIC Interactive CLI Mode
 
 **ATTIC** (Adaptive Tool-driven Intelligent Content Orchestrator) provides an OpenCode-style interactive terminal experience.
 
@@ -150,18 +150,18 @@ attic > explain quantum computing
 During pipeline execution, ATTIC shows real-time progress:
 
 ```
-╭─ 🚀 Pipeline Execution ─────────────────────╮
+╭─ Pipeline Execution ───────────────────────╮
 │ ● Live Data Agent    ████████████████ 100% │
 │ ● Research Agent     ████████████████ 100% │
 │ ● Writer Agent       ████████░░░░░░░░  50% │
 │ ○ Fact Check Agent   ░░░░░░░░░░░░░░░░   0% │
 │ ○ Optimizer Agent    ░░░░░░░░░░░░░░░░   0% │
-╰─────────────────────────────────────────────╯
+╰────────────────────────────────────────────╯
 ```
 
 ---
 
-## �📡 Live Data Agent Mode
+## Live Data Agent Mode
 
 Ingest real external data sources before research begins.
 
@@ -205,7 +205,7 @@ python main.py --topic "Research Summary" --live-data \
 
 ---
 
-## 🧠 Long-Term Learning Memory
+## Long-Term Learning Memory
 
 The system learns from each run and improves over time.
 
@@ -239,7 +239,7 @@ python main.py --topic "Quick Test" --no-learning
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 ai_content_factory/
@@ -307,7 +307,7 @@ ai_content_factory/
 
 ---
 
-## ⚙️ Configuration
+## Configuration
 
 Edit `config/agent_config.yaml`:
 
@@ -334,29 +334,7 @@ tool_permissions:
 
 ---
 
-## 📊 CLI Reference
-
-```
-usage: main.py [-h] --topic TOPIC [--live-data] [--data-source-url URL]
-               [--data-file FILE] [--api-endpoint URL] [--no-learning]
-               [--output FILE] [--verbose] [--config PATH] [--show-stats]
-
-Options:
-  --topic TOPIC           Topic to generate content about (required)
-  --live-data             Enable live data ingestion
-  --data-source-url URL   URL for live data (RSS, API, PDF)
-  --data-file FILE        Local file path (CSV, PDF)
-  --api-endpoint URL      REST API endpoint
-  --no-learning           Disable learning memory
-  --output, -o FILE       Save output to file
-  --verbose, -v           Enable debug logging
-  --config PATH           Custom config file path
-  --show-stats            Show learning statistics
-```
-
----
-
-## 🔧 Development
+## Development
 
 ### Adding New Agents
 
@@ -372,7 +350,7 @@ Options:
 
 ---
 
-## 📈 Performance
+## Performance
 
 Typical execution times (with Ollama llama3.2):
 
@@ -385,13 +363,7 @@ Quality scores typically range 75-95 depending on topic complexity.
 
 ---
 
-## 📝 License
-
-MIT License - See LICENSE file
-
----
-
-## 🙏 Acknowledgments
+## Acknowledgments
 
 Built with:
 - [Ollama](https://ollama.ai/) - Local LLM inference
