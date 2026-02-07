@@ -1,0 +1,12 @@
+{
+  "run_id": "run_20260207_124738_fac314c2",
+  "topic": "Compare Claude opus 4.6 opus 4.5",
+  "live_data_enabled": false,
+  "learning_enabled": true,
+  "data_sources": {
+    "url": null,
+    "file": null,
+    "api": null
+  },
+  "strategy_id": "strat_20260207_003528"
+}

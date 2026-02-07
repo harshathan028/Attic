@@ -1,0 +1,12 @@
+{
+  "run_id": "run_20260207_124227_9e8acecc",
+  "topic": "Donald Trump Relation Epstein files",
+  "live_data_enabled": true,
+  "learning_enabled": true,
+  "data_sources": {
+    "url": null,
+    "file": null,
+    "api": null
+  },
+  "strategy_id": "strat_20260207_003528"
+}

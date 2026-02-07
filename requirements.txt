@@ -18,6 +18,9 @@ rich>=13.0.0
 # Interactive CLI (ATTIC)
 prompt_toolkit>=3.0.0
 
+# Real Web Search
+ddgs>=9.10.0
+
 # PDF processing (optional, for live data)
 pymupdf>=1.24.0
 

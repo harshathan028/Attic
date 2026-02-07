@@ -3,12 +3,13 @@
 > **Implemented adaptive multi-agent orchestration with live data ingestion and cross-run learning memory enabling strategy reuse and performance-driven agent behavior.**
 
 A production-ready content generation system featuring:
-- 🤖 **5 Specialized Agents** - Research, Writing, Fact-Checking, Optimization, Live Data
-- 📡 **Live Data Ingestion** - RSS feeds, REST APIs, PDFs, CSVs
-- 🧠 **Long-Term Learning** - Cross-run strategy memory and performance tracking
-- 💾 **Vector Memory** - ChromaDB-powered semantic retrieval
-- 🔌 **Multi-LLM Support** - Gemini (cloud) or Ollama (local)
-- 📊 **Quality Evaluation** - Readability, structure, keyword density scoring
+- 🤖 **Multi-Agent Orchestration**: Research, Write, Fact-check, and Optimize.
+- 🌐 **Real-Time Web Research**: Integrated DuckDuckGo search for live accuracy.
+- 📡 **Live Data Ingestion**: RSS, CSV, PDF, and REST API support.
+- 🧠 **Recursive Learning**: Memory system that improves strategies over time.
+- 💾 **Vector Memory**: ChromaDB-powered semantic retrieval
+- 🔌 **Multi-LLM Support**: Gemini (cloud) or Ollama (local)
+- 📊 **Quality Evaluation**: Readability, structure, keyword density scoring
 
 **No LangChain, CrewAI, or AutoGen** - Pure custom orchestration architecture.
 
@@ -260,7 +261,8 @@ ai_content_factory/
 ├── tools/                     # Tool implementations
 │   ├── __init__.py
 │   ├── llm_client.py         # Gemini/Ollama clients
-│   ├── search_tool.py        # Web search
+│   ├── search_tool.py        # Abstract/Mock search
+│   ├── ddg_search.py         # Real DuckDuckGo search
 │   ├── vector_store.py       # ChromaDB wrapper
 │   ├── evaluator.py          # Content scoring
 │   ├── live_data_tools.py    # Unified data interface

@@ -1,0 +1,45 @@
+{
+  "sources_used": [
+    "https://news.google.com/rss/search?q=Donald+Trump+Relation+Epstein+files&hl=en-US&gl=US&ceid=US:en"
+  ],
+  "documents_loaded": 20,
+  "key_findings": [
+    "```json\n{\n  \"key_findings\": [\n    \"The Donald Trump-Epstein files reveal a significant number of references to Trump in the released documents, with some sources suggesting that these references may be relevant to ongoing investigations.\",\n    \"The DOJ has admitted to redaction errors in the Epstein documents and will allow lawmakers to see unredacted versions of the released files.\",\n    \"Several high-profile individuals, including presidents and business titans, are mentioned in the Epstein fi"
+  ],
+  "raw_chunks": [
+    "Trump says America should move on from Epstein - it may not be that easy - BBC\n\nTrump says America should move on from Epstein - it may not be that easy &nbsp;&nbsp; BBC",
+    "Epstein files: NYT finds 38,000 Donald Trump-related references after DOJ says claims lack credibility - Mint\n\nEpstein files: NYT finds 38,000 Donald Trump-related references after DOJ says claims lack credibility &nbsp;&nbsp; Mint",
+    "Latest Jeffrey Epstein file disclosures rock the rich and powerful: Top takeaways - NBC News\n\nLatest Jeffrey Epstein file disclosures rock the rich and powerful: Top takeaways &nbsp;&nbsp; NBC News",
+    "Trump says country should move on from Epstein files after latest release - The Hill\n\nTrump says country should move on from Epstein files after latest release &nbsp;&nbsp; The Hill",
+    "Trump says America should move on from Epstein files: 'Get onto something else' - USA Today\n\nTrump says America should move on from Epstein files: 'Get onto something else' &nbsp;&nbsp; USA Today",
+    "What Do the Epstein Files Mean for Trump? Newsweek Writers Debate - Newsweek\n\nWhat Do the Epstein Files Mean for Trump? Newsweek Writers Debate &nbsp;&nbsp; Newsweek",
+    "Who is in the Epstein files? - BBC\n\nWho is in the Epstein files? &nbsp;&nbsp; BBC",
+    "Epstein files reveal close ties to Trump's influential inner circle - PBS\n\nEpstein files reveal close ties to Trump's influential inner circle &nbsp;&nbsp; PBS",
+    "How Trump Appears in the Epstein Files - The New York Times\n\nHow Trump Appears in the Epstein Files &nbsp;&nbsp; The New York Times",
+    "What 3 million new documents tell us about Trump\u2019s ties to Jeffrey Epstein - cnn.com\n\nWhat 3 million new documents tell us about Trump\u2019s ties to Jeffrey Epstein &nbsp;&nbsp; cnn.com"
+  ],
+  "statistics": {},
+  "focus_areas": [],
+  "summary": "```json\n{\n  \"key_findings\": [\n    \"The Donald Trump-Epstein files reveal a significant number of references to Trump in the released documents, with some sources suggesting that these references may be relevant to ongoing investigations.\",\n    \"The DOJ has admitted to redaction errors in the Epstein documents and will allow lawmakers to see unredacted versions of the released files.\",\n    \"Several high-profile individuals, including presidents and business titans, are mentioned in the Epstein files, highlighting the scope of the scandal.\"\n  ],\n  \"statistics\": {\n    \"total_references\": 38,000,\n    \"number_of_sources\": 16\n  },\n  \"notable_sources\": [\n    \"The New York Times\",\n    \"NBC News\",\n    \"BBC\",\n    \"Newsweek\",\n    \"CNN\"\n  ],\n  \"focus_areas\": [\n    \"Investigations into Trump's ties to Epstein and the ongoing DOJ saga\",\n    \"The scope of the Epstein scandal and its implications for high-profile individuals\",\n    \"The credibility of sources covering the story and their potential bias",
+  "source_summary": {
+    "total_sources": 1,
+    "successful": 1,
+    "failed": 0,
+    "total_documents": 20,
+    "by_type": {
+      "rss": 1,
+      "api": 0,
+      "pdf": 0,
+      "csv": 0
+    },
+    "sources": [
+      {
+        "source": "https://news.google.com/rss/search?q=Donald+Trump+Relation+Epstein+files&hl=en-US&gl=US&ceid=US:en",
+        "type": "rss",
+        "success": true,
+        "documents": 20,
+        "error": null
+      }
+    ]
+  }
+}

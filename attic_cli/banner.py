@@ -35,7 +35,7 @@ class ATTICBanner:
     """
 
     SUBTITLE = "Adaptive Tool-driven Intelligent Content Orchestrator"
-    HINT = 'Ask anything… "summarize AI policy from rss"'
+    HINT = "Ask anything..."
     TIP = "Type 'help' for commands • Ctrl+D to exit"
 
     def __init__(self, console: Optional[Console] = None):
@@ -124,7 +124,7 @@ class ATTICBanner:
         )
         
         # Add hint
-        content.append("\n\n")
+        content.append("\n")
         content.append(
             self.HINT,
             style=Style(color="bright_yellow", italic=True),

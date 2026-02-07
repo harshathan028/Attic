@@ -1,0 +1,57 @@
+**Research Notes: Claude Opus 4.6 vs 4.5**
+
+**Key Facts and Definitions**
+
+* **Claude Opus**: A foundational model developed by Anthropic
+* **Opus 4.5**: The previous version of the model, released prior to Opus 4.6
+* **Non-reasoning** and **Reasoning**: Two modes of operation for Claude Opus, with non-reasoning focused on generating text without explicit reasoning and reasoning focused on using contextual information to generate more accurate and relevant results
+
+**Current State and Trends**
+
+* The current landscape of AI models, particularly those developed by Anthropic
+* Emerging developments in the field, such as improved performance and increased adoption
+* Industry direction, including trends towards more advanced and specialized models like Claude Opus 4.6
+
+Sources:
+- [1] Introducing Claude Opus 4.6 - Anthropic
+- [2] Claude Opus 4.6 vs Opus 4.5: A Real-World Comparison - Cosmic JS
+
+**Important Statistics and Data**
+
+* **Benchmark performance**: Claude Opus 4.6 outperforms Opus 4.5 in various benchmarks, including agentic coding, tool use, reasoning, search, and real-world applications
+* **Context window**: Claude Opus 4.6 features a 1M context window, allowing for more comprehensive understanding of the input data
+* **Adaptive thinking**: The model can adapt to different scenarios and contexts, improving its overall performance
+
+Sources:
+- [1] Claude Opus 4.6 vs 4.5 Benchmarks (Explained) - vellum.ai
+- [2] Claude Opus 4.6: Features, Benchmarks, Tests, and More - DataCamp.com
+
+**Key Players and Stakeholders**
+
+* **Anthropic**: The organization behind the development of Claude Opus
+* **OpenAI**: A competitor in the AI model development space, with their own foundational models like GPT-3
+* **Google**: Another major player in AI research and development, with their own range of models and technologies
+
+Sources:
+- [1] Introducing Claude Opus 4.6 - Anthropic
+- [2] Claude Opus 4.5 vs Sonnet 4.5: Pricing Revolution & Performance Comparison - Vertu.com
+
+**Challenges and Opportunities**
+
+* **Obstacles in AI development**: Challenges such as data quality, algorithmic complexity, and ensuring fairness and transparency in model outputs
+* **Growth potential**: The increasing adoption of AI models like Claude Opus 4.6 presents opportunities for growth and innovation in various industries
+* **Innovation areas**: Emerging trends and technologies, such as multimodal learning and explainability, hold promise for further advancements in AI
+
+Sources:
+- [1] Introducing Claude Opus 4.6 - Anthropic
+- [2] Difference Between Opus 4.6 and Opus 4.5 On My 3D VoxelBuild Benchmark - Reddit
+
+**Recent Developments**
+
+* **Release of Claude Opus 4.6**: A new version of the foundational model, featuring improved performance and capabilities
+* **Breakthrough discoveries**: Research findings on the potential applications and benefits of AI models like Claude Opus 4.6
+* **Policy changes**: Updates to regulations and guidelines surrounding AI development and deployment
+
+Sources:
+- [1] Introducing Claude Opus 4.6 - Anthropic
+- [2] Claude Opus 4.6 vs Opus 4.5: A Real-World Comparison - Cosmic JS

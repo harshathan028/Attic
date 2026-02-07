@@ -2,6 +2,7 @@
 
 from .llm_client import LLMClient, GeminiClient, OllamaClient, OpenAIClient, create_llm_client
 from .search_tool import SearchTool, MockSearchTool
+from .ddg_search import DuckDuckGoSearchTool, get_search_tool
 from .vector_store import VectorStore
 from .evaluator import ContentEvaluator
 from .rss_reader import RSSReader, RSSEntry
@@ -20,6 +21,8 @@ __all__ = [
     # Search & Storage
     "SearchTool",
     "MockSearchTool",
+    "DuckDuckGoSearchTool",
+    "get_search_tool",
     "VectorStore",
     "ContentEvaluator",
     # Live Data Tools

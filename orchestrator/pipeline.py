@@ -22,6 +22,7 @@ from agents.base_agent import AgentContext
 from orchestrator.agent_manager import AgentManager
 from tools.llm_client import LLMClient, GeminiClient, OllamaClient, create_llm_client
 from tools.search_tool import SearchTool, MockSearchTool
+from tools.ddg_search import get_search_tool
 from tools.vector_store import VectorStore
 from tools.evaluator import ContentEvaluator
 from memory.run_history_store import RunHistoryStore, RunRecord
@@ -81,7 +82,7 @@ class ContentPipeline:
             model = llm_config.get("model", "gemini-2.0-flash")
             self.llm_client = create_llm_client(provider=provider, model=model)
         
-        self.search_tool = search_tool or MockSearchTool()
+        self.search_tool = search_tool or get_search_tool(prefer_real=True)
         self.vector_store = vector_store or VectorStore()
         self.evaluator = ContentEvaluator()
 
