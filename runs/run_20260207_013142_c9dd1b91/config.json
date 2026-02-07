@@ -1,0 +1,12 @@
+{
+  "run_id": "run_20260207_013142_c9dd1b91",
+  "topic": "Jana Nayagan movie",
+  "live_data_enabled": false,
+  "learning_enabled": true,
+  "data_sources": {
+    "url": null,
+    "file": null,
+    "api": null
+  },
+  "strategy_id": "strat_20260207_003528"
+}

@@ -1,0 +1,95 @@
+# Agent Configuration for AI Content Factory
+
+llm:
+  # Provider options: 'gemini' (cloud) or 'ollama' (local)
+  # Use 'ollama' if you have rate limit issues with Gemini
+  provider: "ollama"
+  model: "llama3.2"
+  # For Ollama, use models like: llama3.2, mistral, qwen3:4b
+  temperature: 0.7
+  max_tokens: 2000
+
+pipeline:
+  max_retries: 3
+  retry_delay: 1.0
+
+# Live data ingestion settings
+live_data_enabled: false
+learning_memory_enabled: true
+
+# Tool permissions for agents
+tool_permissions:
+  live_data_agent:
+    - rss
+    - api
+    - pdf
+    - csv
+
+# Default live data sources (used when no CLI source specified)
+live_data:
+  rss_feeds: []
+  api_endpoints: []
+  pdf_files: []
+  csv_files: []
+
+agents:
+  live_data_agent:
+    role: "Live Data Specialist"
+    prompt_file: "live_data.txt"
+    tools:
+      - rss
+      - api
+      - pdf
+      - csv
+      - vector_store
+    order: 0
+
+  research_agent:
+    role: "Research Specialist"
+    prompt_file: "research.txt"
+    tools:
+      - search
+      - vector_store
+    order: 1
+
+  writer_agent:
+    role: "Content Writer"
+    prompt_file: "writer.txt"
+    tools:
+      - vector_store
+    order: 2
+
+  factcheck_agent:
+    role: "Fact Checker"
+    prompt_file: "factcheck.txt"
+    tools:
+      - search
+    order: 3
+
+  optimizer_agent:
+    role: "Content Optimizer"
+    prompt_file: "optimize.txt"
+    tools:
+      - evaluator
+    order: 4
+
+execution_order:
+  - live_data_agent  # Only when --live-data enabled
+  - research_agent
+  - writer_agent
+  - factcheck_agent
+  - optimizer_agent
+
+vector_store:
+  collection_name: "content_factory"
+  persist: false
+
+evaluator:
+  target_word_count: 1000
+  target_keyword_density: 0.02
+
+# Learning memory settings
+learning:
+  min_score_for_strategy: 70
+  max_strategies: 100
+  cleanup_days: 90

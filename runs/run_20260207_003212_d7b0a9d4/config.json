@@ -1,0 +1,12 @@
+{
+  "run_id": "run_20260207_003212_d7b0a9d4",
+  "topic": "AI in Healthcare",
+  "live_data_enabled": true,
+  "learning_enabled": true,
+  "data_sources": {
+    "url": "https://news.google.com/rss/search?q=AI+healthcare",
+    "file": null,
+    "api": null
+  },
+  "strategy_id": null
+}

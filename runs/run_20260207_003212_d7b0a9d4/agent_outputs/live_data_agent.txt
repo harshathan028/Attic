@@ -1,0 +1,56 @@
+{
+  "sources_used": [
+    "https://news.google.com/rss/search?q=AI+healthcare"
+  ],
+  "documents_loaded": 0,
+  "key_findings": [
+    "The top companies investing in AI for healthcare include Lotus Health, Cognizant, and Palantir.",
+    "There is a growing emphasis on the use of AI in proactive healthcare.",
+    "High-quality clinical data is essential for progress in AI-driven healthcare.",
+    "Several governments are applying AI across public healthcare systems."
+  ],
+  "raw_chunks": [
+    "Lotus Health nabs $35M for AI doctor that sees patients for free - TechCrunch\n\nLotus Health nabs $35M for AI doctor that sees patients for free &nbsp;&nbsp; TechCrunch",
+    "Collaborating on a nationwide randomized study of AI in real-world virtual care - research.google\n\nCollaborating on a nationwide randomized study of AI in real-world virtual care &nbsp;&nbsp; research.google",
+    "Cognizant partners with Palantir to Accelerate AI-Driven Modernization in Healthcare and Enterprise Operations - Cognizant Technology\n\nCognizant partners with Palantir to Accelerate AI-Driven Modernization in Healthcare and Enterprise Operations &nbsp;&nbsp; Cognizant Technology",
+    "Delhi University launches AI in health sciences course for tech-savvy healthcare professionals - India Today\n\nDelhi University launches AI in health sciences course for tech-savvy healthcare professionals &nbsp;&nbsp; India Today",
+    "AI\u2019s shift toward proactive healthcare - Arab News\n\nAI\u2019s shift toward proactive healthcare &nbsp;&nbsp; Arab News",
+    "AI in healthcare: high-quality clinical data essential for progress - China Daily\n\nAI in healthcare: high-quality clinical data essential for progress &nbsp;&nbsp; China Daily",
+    "Top Challenges and Ethical Risks of Artificial Intelligence in Healthcare - Analytics Insight\n\nTop Challenges and Ethical Risks of Artificial Intelligence in Healthcare &nbsp;&nbsp; Analytics Insight",
+    "Honourable CM Shri Himanta Biswa Sarma Leads Assam's Leap to AI-Driven Hospitals, Anchors Lord's Mark Industries as Strategic Partner - DNA India\n\nHonourable CM Shri Himanta Biswa Sarma Leads Assam's Leap to AI-Driven Hospitals, Anchors Lord's Mark Industries as Strategic Partner &nbsp;&nbsp; DNA India",
+    "Why Everyone\u2019s Talking About Uttar Pradesh\u2019s AI Healthcare Model And What It Means for You - Times Now\n\nWhy Everyone\u2019s Talking About Uttar Pradesh\u2019s AI Healthcare Model And What It Means for You &nbsp;&nbsp; Times Now",
+    "Cognizant Ties Up With Palantir to Bring AI into Healthcare & Enterprise - Analytics India Magazine\n\nCognizant Ties Up With Palantir to Bring AI into Healthcare & Enterprise &nbsp;&nbsp; Analytics India Magazine"
+  ],
+  "statistics": {
+    "Total number of documents analyzed": 20,
+    "Number of sources": 16
+  },
+  "focus_areas": [
+    "AI adoption in healthcare",
+    "Proactive healthcare",
+    "High-quality clinical data",
+    "Government initiatives on AI in healthcare"
+  ],
+  "summary": "The analysis reveals a growing interest in AI for healthcare, with several companies and governments investing in its development. Key areas of focus include proactive healthcare, high-quality clinical data, and government initiatives.",
+  "source_summary": {
+    "total_sources": 1,
+    "successful": 1,
+    "failed": 0,
+    "total_documents": 20,
+    "by_type": {
+      "rss": 1,
+      "api": 0,
+      "pdf": 0,
+      "csv": 0
+    },
+    "sources": [
+      {
+        "source": "https://news.google.com/rss/search?q=AI+healthcare",
+        "type": "rss",
+        "success": true,
+        "documents": 20,
+        "error": null
+      }
+    ]
+  }
+}

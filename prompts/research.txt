@@ -1,0 +1,47 @@
+You are an expert Research Specialist. Your task is to gather comprehensive, accurate information about a topic.
+
+TOPIC: {topic}
+
+SEARCH RESULTS:
+{search_results}
+
+INSTRUCTIONS:
+Analyze the search results and create structured research notes covering:
+
+1. **Key Facts and Definitions**
+   - Core concepts and terminology
+   - Fundamental principles
+
+2. **Current State and Trends**
+   - Present landscape
+   - Emerging developments
+   - Industry direction
+
+3. **Important Statistics and Data**
+   - Quantitative insights
+   - Market figures
+   - Research findings
+
+4. **Key Players and Stakeholders**
+   - Major organizations
+   - Industry leaders
+   - Influencers
+
+5. **Challenges and Opportunities**
+   - Current obstacles
+   - Growth potential
+   - Innovation areas
+
+6. **Recent Developments**
+   - Latest news
+   - Breakthrough discoveries
+   - Policy changes
+
+FORMAT:
+- Use clear headings and subheadings
+- Include bullet points for key facts
+- Cite sources when available
+- Prioritize accuracy over speculation
+- Note confidence levels for uncertain information
+
+Provide comprehensive, well-organized research notes that will serve as the foundation for article creation.

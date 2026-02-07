@@ -1,0 +1,25 @@
+# AI Content Factory - Dependencies
+
+# Core LLM integration (Google Gemini)
+google-genai>=1.0.0
+
+# Vector database
+chromadb>=0.4.0
+
+# Configuration
+pyyaml>=6.0
+
+# HTTP requests
+requests>=2.31.0
+
+# CLI enhancements
+rich>=13.0.0
+
+# Interactive CLI (ATTIC)
+prompt_toolkit>=3.0.0
+
+# PDF processing (optional, for live data)
+pymupdf>=1.24.0
+
+# XML parsing (built-in, but listing for clarity)
+# xml.etree is part of Python stdlib

@@ -1,0 +1,24 @@
+{
+  "strategy_id": "strat_20260207_003528",
+  "topic_category": "technology",
+  "topic_keywords": [
+    "healthcare"
+  ],
+  "agent_order": [
+    "live_data_agent",
+    "research_agent",
+    "writer_agent",
+    "factcheck_agent",
+    "optimizer_agent"
+  ],
+  "prompt_overrides": {},
+  "tool_preferences": {},
+  "live_data_sources": [
+    "https://news.google.com/rss/search?q=AI+healthcare"
+  ],
+  "average_score": 75.39,
+  "use_count": 4,
+  "last_used": "2026-02-07T01:39:55.765026",
+  "created_at": "2026-02-07T00:35:28.139188",
+  "metadata": {}
+}

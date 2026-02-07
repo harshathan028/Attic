@@ -1,0 +1,16 @@
+{
+  "overall_score": 76.0,
+  "readability_score": 70,
+  "length_score": 50,
+  "keyword_density_score": 75,
+  "structure_score": 100,
+  "details": {
+    "word_count": 315,
+    "sentence_count": 19,
+    "paragraph_count": 15,
+    "flesch_reading_ease": 43.06,
+    "flesch_kincaid_grade": 11.32,
+    "gunning_fog": 13.62,
+    "keywords_found": {}
+  }
+}
