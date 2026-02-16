@@ -359,7 +359,7 @@ Typical execution times (with Ollama llama3.2):
 | Standard | 4 | ~2-3 min |
 | Live Data | 5 | ~3-4 min |
 
-Quality scores typically range 75-95 depending on topic complexity.
+Quality scores ranges from 75-95 depending on topic complexity.
 
 ---
 
