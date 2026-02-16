@@ -175,7 +175,7 @@ def show_stats() -> None:
     
     console.print(table)
     
-    # Performance stats
+    # Performance statsistics
     performance = PerformanceTracker()
     perf_stats = performance.get_overall_stats()
     
