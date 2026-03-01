@@ -6,7 +6,7 @@ A production-ready content generation system featuring:
 - **5 Specialized Agents** - Research, Writing, Fact-Checking, Optimization, Live Data
 - **Live Data Ingestion** - RSS feeds, REST APIs, CSVs
 - **Long-Term Learning** - Cross-run strategy memory and performance tracking
-- **Vector Memory** - ChromaDB-powered semantic retrieval
+- **Vector Memory** - ChromaDB-power semantic retrieval
 - **Multi-LLM Support** - Gemini (cloud) or Ollama (local)
 - **Quality Evaluation** - Readability, structure, keyword density scoring
 
