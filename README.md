@@ -2,7 +2,7 @@
 
 > **Implemented adaptive multi-agent orchestration with live data ingestion and cross-run learning memory enabling strategy reuse and performance-driven agent behavior.**
 
-A production-ready content generation system featuring:
+A production-ready content generation system featuring::
 - **5 Specialized Agents** - Research, Writing, Fact-Checking, Optimization, Live Data
 - **Live Data Ingestion** - RSS feeds, REST APIs, CSVs
 - **Long-Term Learning** - Cross-run strategy memory and performance tracking
