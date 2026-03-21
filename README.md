@@ -9,7 +9,7 @@ A production-ready content generation system featuring::
 - **Vector Memory** - ChromaDB-powered semantic retrieval
 - **Multi-LLM Support** - Gemini (cloud) or Ollama (local)
 - **Quality Evaluation** - Readability, structure, keyword density scoring
-
+  
 **No LangChain, CrewAI, or AutoGen** - Pure custom orchestration architecture.
 
 ---
